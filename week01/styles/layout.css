@@ -1,0 +1,43 @@
+
+
+
+
+header {
+    grid-column: 1 / 4;
+}
+header a {
+    padding: 3.4rem;
+}
+header nav {
+    display: flex;
+    background-color: rgb(190, 188, 216);
+    color: white;
+}
+
+main {
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+    grid-row: 10;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+.content {
+    grid-column: 1 / 3;
+    background-color: aquamarine;
+}
+main div p {
+    color: aquamarine;
+}
+.aside {
+    grid-column: 3 / 4;
+    
+    background-color: beige;
+
+}
+footer {
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+    grid-column: 1 / 5;
+    background-color: blueviolet;
+}
