@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --heading-font:"Inter" , sans-serif;
+    --paragraph-font:"Open Sans", sans-serif; 
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-family: var(--heading-font);
+    background-color: #0E9594;
+    margin-bottom: 0%;
+}
+
+header a {
+    display: block;
+    padding: 2.5rem;
+    width: 100%;
+    background-color: #127475;
+    color: antiquewhite;
+}
+header nav {
+    display: flex;
+    margin-top: 0%;
+    font-family: var(--paragraph-font);
+}
+header nav a:hover {
+    color: #1b1b8f;
+} 
+main {
+    display: grid;
+    grid-template-columns: 50rem 1fr auto;
+    padding: 5rem;
+    width: 90%;
+
+}
+.top {
+    background-color: #0E9594;
+}
+p {
+    font-family: var(--paragraph-font);
+}
+
+h2 {
+    text-align: center;
+    font-family: var(--heading-font);
+}
+
+footer {
+    text-align: center;
+    font-family: var(--paragraph-font);
+    background-color: #127475;
+    color: antiquewhite;
+}
+
+
