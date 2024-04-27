@@ -32,21 +32,35 @@ main {
     display: grid;
     grid-template-columns: 50rem 1fr auto;
     padding: 5rem;
-    width: 90%;
-
+    width: 90%
+}
+.card {
+    border: solid 2px;
 }
 .top {
     background-color: #0E9594;
+    margin-top: 0%;
+    border-bottom: solid 1px;
 }
 p {
     font-family: var(--paragraph-font);
+}
+section nav {
+    font-family: var(--paragraph-font);
+}
+section nav a {
+    display: block;
+    align-self: center;
+    font-size: large;
 }
 
 h2 {
     text-align: center;
     font-family: var(--heading-font);
 }
-
+.valpo {
+    border-bottom: solid .5px;
+}
 footer {
     text-align: center;
     font-family: var(--paragraph-font);
