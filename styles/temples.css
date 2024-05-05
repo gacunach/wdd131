@@ -1,0 +1,60 @@
+
+:root {
+    --heading-font: 'lato', sans-seriff;
+    --paragraph-font: 'poppins', sans-seriff;
+
+}
+header, main, footer {
+    text-align: center;
+}
+header {
+    background-color: #416165;
+    justify-content: space-between;
+    color: antiquewhite;    
+}
+h1 {
+    margin-left: 1rem;
+}
+h1, h2 {
+    font-family:  var(--heading-font);
+}
+
+header a {
+    display: block;
+    font-family: var(--paragraph-font);
+    color: antiquewhite;
+    padding: 1.5rem;
+}
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+#menu{
+    display: block;
+}
+
+#menu::before{
+    content: "≡";
+}
+
+header nav a:hover {
+    background-color: #0B3948;
+    color: white;
+}
+
+.images {
+    display: grid;
+    grid-row: auto;
+}
+figure {
+    font-family: var(--paragraph-font);
+}
+footer {
+    font-family: var(--paragraph-font);
+    color: antiquewhite;
+    background-color: #416165;
+    padding: 3px;
+}
