@@ -6,6 +6,7 @@
 header {
     background-color: rgb(38, 28, 176);
     color: antiquewhite;
+    padding: 5px;
 }
 h1 {
     font-family: var(--heading-font);
