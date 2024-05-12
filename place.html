@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torres del Paine</title>
+    <meta name="description" content="Torres del paine info.">
+    <meta name="author" content="Gabriela Acuña">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Torres del Paine</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/hero-large.webp">
+                <source media="(min-width: 500px)" srcset="images/hero-medium.webp">
+                <img src="images/hero-small.webp" alt="Santiago Chile Temple" width="500" height="512">
+            </picture>
+        </div>
+        <div class="data">
+            <h2>Data</h2>
+            <ul class="info">
+                <li>Location: Chile, Magallanes Region and Chilean Antarctica</li>
+                <li>Languages: Spanish</li>
+                <li>Timezone: GMT-3</li>
+                <li>Calling Code: +56 9</li>
+                <li>Currency: Chilean Peso (clp)</li>
+            </ul>
+        </div>
+        <div class="weather">
+            <h2>Weather</h2>
+            <img src="images/weather_icon.svg" alt="weather icon" width="50">
+            <ul class="info">
+                <li>Temperature: 11°C</li>
+                <li>Conditions: Cloudy</li>
+                <li>Wind: 6Km/h</li>
+                <li id="windchill"></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>
+            <span id="currentyear"></span>
+            🎻 Gabriela Acuña 🎻 Chile
+        </p>
+        <p>
+            <span id="lastModified"></span>
+        </p>        
+    </footer>
+</body>
+        
+
+
+</html>

@@ -1,0 +1,40 @@
+:root {
+    --heading-font: 'lato', sans-seriff;
+    --paragraph-font: 'poppins', sans-seriff;
+
+}
+header {
+    background-color: rgb(38, 28, 176);
+    color: antiquewhite;
+}
+h1 {
+    font-family: var(--heading-font);
+    text-align: center;
+}
+h2 {
+    font-family: var(--heading-font);
+}
+
+main, footer {
+    font-family: var(--paragraph-font);
+}
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.weather, .data {
+    text-align: center;
+}
+.info {
+    display: grid;
+    grid-column: auto;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(38, 28, 176);
+    color: antiquewhite;
+    font-size: large;
+}
+
