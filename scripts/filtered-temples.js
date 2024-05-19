@@ -104,6 +104,7 @@ const temples = [
 ];
 
 function createCards(dataArray) {
+	container.innerHTML = '';
 	const container = document.getElementById("cards")
 
 	dataArray.forEach(item => {
