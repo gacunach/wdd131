@@ -1,0 +1,22 @@
+@media screen and (min-width: 500px) {
+    header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #menu{
+    display: none;
+    }
+    
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    nav a {
+        display: flex;
+
+    }
+    .navigation {
+        display: flex;
+    }
+}

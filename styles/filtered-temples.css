@@ -1,0 +1,85 @@
+
+:root {
+    --heading-font: 'lato', sans-seriff;
+    --paragraph-font: 'poppins', sans-seriff;
+
+}
+header, main, footer {
+    text-align: center;
+}
+header {
+    background-color: #2c5358;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);    
+}
+h1 {
+    margin-left: 1rem;
+}
+h1, h2 {
+    font-family:  var(--heading-font);
+}
+
+header a {
+    display: block;
+    font-family: var(--paragraph-font);
+    color: rgb(255, 255, 255);
+    padding: 1.5rem;
+}
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+#menu{
+    display: block;
+}
+
+#menu::before{
+    content: "≡";
+}
+#menu.show::before{
+    content: "X";
+}
+
+header nav a:hover {
+    background-color: #0B3948;
+    color: rgb(208, 208, 208);
+}
+.card {
+    background-color: #96C9DC;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-family: var(--paragraph-font);
+}
+.card img {
+    padding: 10px;
+    position: relative;
+    top: 20px;
+}
+.card p {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: small;
+}
+.images {
+    display: grid;
+    grid-row: auto;
+    
+}
+.card h3 {
+    font-family: var(--heading-font);
+    text-align: center;
+}
+figure {
+    font-family: var(--paragraph-font);
+}
+footer {
+    font-family: var(--paragraph-font);
+    color: rgb(255, 255, 255);
+    background-color: #2c5358;
+    padding: 3px;
+    margin-top: 2rem;
+}
+
