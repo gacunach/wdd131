@@ -1,0 +1,30 @@
+:root {
+    --heading-font: 'lato', sans-seriff;
+    --paragraph-font: 'poppins', sans-seriff;
+}
+
+form {
+    text-align: center;
+    background-color: #C5E194;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin-bottom: none;
+    margin-top: none;
+    font-family: var(--paragraph-font);
+}
+
+footer, h1 {
+    text-align: center;
+    background-color: #264027;
+    color: white;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    padding: 3rem;
+}
+
+footer {
+    font-family: var(--paragraph-font);
+    padding: 2rem;
+}

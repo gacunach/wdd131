@@ -1,0 +1,22 @@
+
+
+:root {
+    --heading-font: 'lato', sans-seriff;
+    --paragraph-font: 'poppins', sans-seriff;
+    --background-color1: #07BEB8;    
+    --background-color2: #9CEAEF;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    background-color: var(--background-color1);
+    padding: 25px;
+    
+}
+
+div p {
+    font-family: var(--paragraph-font);
+    background-color: var(--background-color2);
+    padding: 25px;
+    margin-top: 0px;
+}
