@@ -14,9 +14,10 @@ h2 {
     
 }
 
-div p {
+div p, img{
     font-family: var(--paragraph-font);
     background-color: var(--background-color2);
     padding: 25px;
     margin-top: 0px;
 }
+
