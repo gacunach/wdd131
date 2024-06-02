@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casablanca Youth Orchestra</title>
+    <meta name="description" content="The site provides information about the youth orchestra, classes and the instruments that are available.">
+    <meta name="author" content="Gabriela Acuña">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/orchestra.css">
+    <link rel="stylesheet" href="styles/orchestra-large.css">
+    <script src="scripts/orchestra.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Casablanca Youth Orchestra</h1>
+        <a id="menu" href=""></a>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" id="all">Home</a></li>
+                <li><a href="#" id="instruments">Instruments</a></li>
+                <li><a href="#" id="classes">Classes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="home">
+            <h2>Home</h2>
+        </div>    
+        <p>The Casablanca Youth Orchestra was formed in 2010 with just 16 students. It originally imparted just strings instruments, in 2014
+            thanks to the support of the town percussion was added, and then in 2018 woodwinds and brass were added to the 
+            orchestra. Now the program counts with 30 teachers of different classes and more than 200 students.
+        </p>
+        <picture>
+            <source media="(min-width: 500px)" srcset="images/hero-large.webp">
+            <img src="images/hero-small.webp" alt="Youth orchestra" width="500" height="345">
+        </picture>
+        <div class="instruments" id="cards">
+            <h2>Instruments</h2>
+        </div>
+        <div class="classes">
+            <h2>Classes</h2>
+            <p>Any instrument choice includes:</p>
+            <ul>
+                <li>Instrument class: 45min of individual class with a teacher working on instrument technique and repertoire.</li>
+                <li>Music theory class: 1.5h of group class focusing on how to read music and ear training.</li>
+                <li>Orchestra sectionals: 1h of orchestra rehearsal with just the section that plays the same part.</li>
+                <li>Orchestra rehearsal: 3h of orchestra rehearsal.</li>
+            </ul>          
+        </div>
+    </main>
+    <footer>
+        <p>
+            <span id="currentyear"></span>
+            🎻 Gabriela Acuña 🎻 Chile
+        </p>
+        <p>
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+</body>
+</html>

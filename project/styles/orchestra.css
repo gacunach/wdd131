@@ -1,0 +1,97 @@
+:root {
+    --heading-font: 'lato', sans-seriff;
+    --paragraph-font: 'poppins', sans-seriff;
+    --background-color1: #07BEB8;    
+    --background-color2: #9CEAEF;
+}
+
+h1, h2{
+    text-align: center;
+    font-family: var(--heading-font);
+}
+
+header {
+    background-color: var(--background-color1);
+    
+}
+
+nav  { 
+    font-family: var(--paragraph-font); 
+    text-align: center;
+
+} 
+nav a:hover { 
+    background-color: var(--background-color2); 
+} 
+
+nav a:visited {
+    color: black;
+}
+
+p, li{ 
+    font-family: var(--paragraph-font); 
+
+}
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+#menu{
+    display: block;
+}
+
+#menu::before{
+    content: "≡";
+}
+#menu.show::before{
+    content: "X";
+}
+
+.instruments {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    display: grid;
+}
+.card {
+    background-color: var(--background-color2);
+    padding: 1rem;
+    margin-top: 2rem;
+    font-family: var(--paragraph-font);
+}
+.card img {
+    padding: 10px;
+    position: relative;
+    margin-left: 4rem;
+    align-items: center;
+    top: 20px;
+}
+.card p {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: medium;
+}
+.card h3 {
+    font-family: var(--heading-font);
+    text-align: center;
+}
+.classes {
+    background-color: var(--background-color2);   
+    padding: 5px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: var(--background-color1);
+}
+h2 {
+    background-color: var(--background-color1);
+    padding: 20px;
+
+}
+.home {
+    background-color: white;
+}
